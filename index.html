@@ -87,16 +87,18 @@ header img {
             max-width: 150px;
             opacity: 0.5;
         }
-        .button {
-    display: block; /* Place chaque bouton sur une nouvelle ligne */
-    margin: 20px auto; /* Centre les boutons horizontalement */
+  .button {
+    display: inline-block; /* Pour limiter la largeur des boutons */
+    margin: 20px auto; /* Centrage horizontal */
     padding: 15px 30px;
+    width: auto; /* Ajuste automatiquement la largeur selon le texte */
+    max-width: 300px; /* Limite maximale de largeur */
     background-color: #a52a2a; /* Couleur actuelle */
     color: white;
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
-    text-align: center; /* Centre le texte dans le bouton */
+    text-align: center; /* Centrage du texte */
 }
         .button:hover {
             background-color: #8b0000;
